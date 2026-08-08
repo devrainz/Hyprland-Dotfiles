@@ -1,7 +1,32 @@
 # Hyprland Dotfiles
 
-This repository contains my personal Hyprland Dotfiles. In order to use and run it properly, you must have the dependencies below installed on your system:
+My personal **Hyprland dotfiles** and configuration files.
 
-`waybar fish kitty starship waytrogen qt6-5compat quickshell python-pywal fuzzel swappy rofi clock-rs-git`
+## Dependencies
 
-(Some of them are from the AUR, not the pacman repository. **And remember to check out some of the config files, as some of them requires the user to manually change the user's name from some directory paths inside the config files!**)
+Before using these dotfiles, make sure the following dependencies are installed on your system:
+
+```text
+waybar
+fish
+kitty
+starship
+waytrogen
+qt6-5compat
+quickshell
+python-pywal
+fuzzel
+swappy
+rofi
+clock-rs-git
+```
+
+Some of these packages are available through the **AUR** rather than the official Arch repositories.
+
+> **Important:** After installing the dependencies, make sure to check the configuration files before using them. Some configs contain hardcoded paths that include my username and/or home directory. You will need to replace these paths with your own username and directories for everything to work correctly.
+
+### Notes
+
+* These dotfiles are primarily intended for **Arch Linux**.
+* Make sure all required dependencies are installed before applying the configurations.
+* Review the configs for user-specific paths and other personal settings before copying them to your system.
